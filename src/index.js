@@ -20,7 +20,7 @@ const App = () => {
         resetErrorBoundary();
       }}
       onReset={() => {
-        localStorage.setItem("fiubaplan", JSON.stringify({}));
+        localStorage.setItem("bioquimicamap", JSON.stringify({}));
       }}
     >
       <DataProvider>

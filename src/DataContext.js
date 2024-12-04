@@ -22,12 +22,12 @@ if (window.location.hash) {
 // en vez de importados del SIU (la key `cuatrimestre`), le limpiamos la data
 let json = null;
 try {
-  json = JSON.parse(window.localStorage.getItem("fiubaplan"));
+  json = JSON.parse(window.localStorage.getItem("bioquimicamap"));
 } catch (e) {
   console.warn("Error al parsear el JSON del localStorage", e);
 } finally {
   if (!json || json["cuatrimestre"]) {
-    window.localStorage.setItem("fiubaplan", JSON.stringify({}));
+    window.localStorage.setItem("bioquimicamap", JSON.stringify({}));
   }
 }
 
@@ -232,12 +232,12 @@ const Data = () => {
 
   const permalink = React.useMemo(() => {
     const savedatab64 = jsontobase64(savedata);
-    return `https://fede.dm/FIUBA-Plan/#${savedatab64}`;
+    return `https://maleriandro.github.io/Bioquimica-Plan/#${savedatab64}`;
   }, [JSON.stringify(savedata)]);
 
   React.useEffect(() => {
     if (readOnly) return;
-    window.localStorage.setItem("fiubaplan", JSON.stringify(savedata));
+    window.localStorage.setItem("bioquimicamap", JSON.stringify(savedata));
   }, [JSON.stringify(savedata), readOnly]);
 
   // INTERFACES DE CADA ESTADO
@@ -426,7 +426,7 @@ const Data = () => {
 };
 
 const getFromStorage = (key) => {
-  const json = JSON.parse(window.localStorage.getItem("fiubaplan"));
+  const json = JSON.parse(window.localStorage.getItem("bioquimicamap"));
   return json?.[key];
 };
 

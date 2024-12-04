@@ -95,9 +95,10 @@ const Sugerencias = ({ onClose }) => {
                     <form
                       onSubmit={async (t) => {
                         t.preventDefault();
-                        await submitBug(t.target.elements["bug"].value).catch(
-                          console.error,
-                        );
+                        alert("Todavía no se implementó el envío de sugerencias, agregame un issue en Github por favor!");
+                        // await submitBug(t.target.elements["bug"].value).catch(
+                        //   console.error,
+                        // );
                         toast.close(bugToast.current);
                       }}
                     >
@@ -140,7 +141,7 @@ const Sugerencias = ({ onClose }) => {
                             color: "primary.400",
                           },
                         }}
-                        href="https://github.com/FdelMazo/FIUBA-Map/issues/new"
+                        href="https://github.com/Maleriandro/Bioquimica-Plan/issues/new"
                       >
                         directamente{" "}
                         <ExternalLinkIcon

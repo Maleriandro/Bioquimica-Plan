@@ -185,11 +185,11 @@ const MateriasDrawer = (props) => {
                 </Link>
               </Tooltip>
 
-              <Tooltip label="FIUBA-Map" placement="top">
+              <Tooltip label="Bioquimica-Map" placement="top">
                 <Link
                   color="primary.600"
                   isExternal
-                  href="https://fede.dm/FIUBA-Map/"
+                  href="maleriandro.github.io/Bioquimica-Map/"
                 >
                   <Icon boxSize={4} ml={2} viewBox="0 0 448 512">
                     <path
@@ -200,11 +200,11 @@ const MateriasDrawer = (props) => {
                 </Link>
               </Tooltip>
 
-              <Tooltip label="FdelMazo/FIUBA-Plan" placement="top">
+              <Tooltip label="Maleriandro/Bioquimica-Plan" placement="top">
                 <Link
                   color="primary.600"
                   isExternal
-                  href="https://github.com/fdelmazo/FIUBA-Plan"
+                  href="https://github.com/Maleriandro/Bioquimica-Plan"
                 >
                   <Icon boxSize={5} ml={2} viewBox="0 0 16 16">
                     <path
@@ -215,7 +215,7 @@ const MateriasDrawer = (props) => {
                 </Link>
               </Tooltip>
 
-              <Tooltip label="Invitame un Cafecito" placement="top">
+              <Tooltip label="Invitá un Cafecito al autor original" placement="top">
                 <Link
                   color="primary.600"
                   isExternal
@@ -234,7 +234,7 @@ const MateriasDrawer = (props) => {
                 <Link
                   color="primary.600"
                   isExternal
-                  href="https://www.fi.uba.ar/estudiantes/calendario-academico"
+                  href="https://www.ffyb.uba.ar/calendario-academico/"
                 >
                   <Icon boxSize={5} ml={2} viewBox="0 0 512 512">
                     <path

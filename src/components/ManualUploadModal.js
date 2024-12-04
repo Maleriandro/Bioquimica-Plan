@@ -45,7 +45,7 @@ const ManualUploadModal = ({ isOpen, onClose }) => {
         <ModalCloseButton />
         <ModalBody>
           <Text mb={3}>
-            Lamentablemente, <strong>FIUBA</strong> ya no ofrece los horarios de
+            Lamentablemente, <strong>Bioquimica</strong> no ofrece los horarios de
             las materias públicamente, por lo que cada usuario tiene que importar manualmente
             sus horarios desde el SIU.
           </Text>
@@ -58,7 +58,7 @@ const ManualUploadModal = ({ isOpen, onClose }) => {
               Andá a{" "}
               <Link
                 isExternal
-                href="https://guaraniautogestion.fi.uba.ar/g3w/oferta_comisiones"
+                href="https://guarani.ffyb.uba.ar/ffyb/oferta_comisiones"
               >
                 <Code
                   _hover={{

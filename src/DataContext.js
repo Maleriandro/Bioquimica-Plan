@@ -6,8 +6,6 @@ import { useImmer, useImmerReducer } from "use-immer";
 import { parseSIU } from "./siuparser";
 import { base64tojson, jsontobase64 } from "./utils";
 
-let unconsecuentialVariable = 0;
-
 // Si tengo un permalink, parseo su info y reseteo la URL
 let permalinksavedata = null;
 if (window.location.hash) {

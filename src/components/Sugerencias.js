@@ -18,19 +18,19 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
-const submitBug = async (bug) => {
-  if (!bug) return;
-  const formData = new FormData();
-  formData.append(`entry.108884877`, "FIUBA-PLAN");
-  formData.append(`entry.817568535`, bug || "");
-  fetch(
-    `https://docs.google.com/forms/d/1Mr4-4qWqZKaobjG3GI30aPvC5qlMsd6Eib3YGUbLd2k/formResponse`,
-    {
-      body: formData,
-      method: "POST",
-    },
-  );
-};
+// const submitBug = async (bug) => {
+//   if (!bug) return;
+//   const formData = new FormData();
+//   formData.append(`entry.108884877`, "FIUBA-PLAN");
+//   formData.append(`entry.817568535`, bug || "");
+//   fetch(
+//     `https://docs.google.com/forms/d/1Mr4-4qWqZKaobjG3GI30aPvC5qlMsd6Eib3YGUbLd2k/formResponse`,
+//     {
+//       body: formData,
+//       method: "POST",
+//     },
+//   );
+// };
 
 // Toast para reportar bugs
 const Sugerencias = ({ onClose }) => {

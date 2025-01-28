@@ -4,7 +4,7 @@ Organizador de horarios de la carrera de Bioquimica de la UBA
 
 ---
 
-![](public/fplan.png)
+![https://maleriandro.github.io/Bioquimica-Plan/](preview.png)
 
 Este proyecto apunta a una manera más facil de visualizar los horarios de cursada de bioquimica. La idea es que no dependa de ningun servicio externo para conseguir los horarios cada cuatrimestre (porque no existe ninguno confiable que sea actualizado año a año), y los horarios sean cargados manualmente por el usuario que los puede obtener de su SIU (incluso, en una de esas funciona para SIUs de otras facultades de la UBA).
 
